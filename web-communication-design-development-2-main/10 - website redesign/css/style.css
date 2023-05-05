@@ -840,6 +840,12 @@ code {
     border-radius: 10px 0 0 10px;
 }
 
+.green2 {
+    background-color: var(--gray-3);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
 .blob {
     padding: 1rem;
     background-color: var(--gray-3);
@@ -933,7 +939,7 @@ code {
   }
 
   iframe {
-    padding: 0 2rem 2rem 0;
+    padding: 2rem 2rem 0.5rem 0;
   }
 
   /* Carousel Styles */
