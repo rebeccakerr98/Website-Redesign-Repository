@@ -866,6 +866,16 @@ code {
     margin-bottom: 0;
 }
 
+.money-strike {
+    text-decoration: line-through;
+}
+
+.red {
+    color: red;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
 .redirect {
     color: var(--primary);
     text-decoration: none;
