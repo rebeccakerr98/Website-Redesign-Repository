@@ -885,6 +885,29 @@ code {
     text-decoration: underline;
 }
 
+.socialmedia-row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.socialmedia-row a {
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.form-control {
+    margin-bottom: 1.5em;
+  }
+
+  .socialmedia-row p {
+    margin-bottom: 1em;
+  }
+
   /* Carousel Styles */
 .carousel {
     position: relative;
