@@ -932,6 +932,10 @@ code {
     margin-bottom: 1em;
   }
 
+  iframe {
+    padding: 0 2rem 2rem 0;
+  }
+
   /* Carousel Styles */
 .carousel {
     position: relative;
