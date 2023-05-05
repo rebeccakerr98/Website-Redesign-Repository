@@ -762,6 +762,16 @@ code {
     position: relative;
     margin-bottom: 2rem;
   }
+
+  .hero-image3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/delivery2.jpg");
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 2rem;
+  }
   
   .hero-text {
     text-align: center;
@@ -902,6 +912,10 @@ code {
 
 .form-control {
     margin-bottom: 1.5em;
+  }
+
+  #materials {
+    width:100%;
   }
 
   .socialmedia-row p {
