@@ -782,6 +782,16 @@ code {
     position: relative;
     margin-bottom: 2rem;
   }
+
+  .hero-image5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/class.jpg");
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 2rem;
+  }
   
   .hero-text {
     text-align: center;
@@ -834,6 +844,24 @@ code {
     margin-right: -1rem;
 }
 
+.row4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.row4 a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.row4 a:hover {
+    color: var(--primary-hover);
+    text-decoration: underline;
+}
+
 .green {
     background-color: var(--gray-3);
     padding-left: 1.5rem;
@@ -856,8 +884,11 @@ code {
 
 .fa-seedling {
     color: var(--primary);
-    margin: 0;
     margin: 0 2.5rem;
+}
+
+.fa-square-check {
+    padding: 0 1rem 0 1rem;
 }
 
 .product-item {
@@ -939,7 +970,13 @@ code {
   }
 
   iframe {
-    padding: 2rem 2rem 0.5rem 0;
+    padding: 0 2rem 0.5rem 0;
+  }
+
+  @media screen and (max-width: 575px){
+    .fa-seedling {
+        display: none;
+    }
   }
 
   /* Carousel Styles */
@@ -1110,6 +1147,15 @@ footer .social-media a {
     .story .image {
         flex-basis: 30%;
     }
+
+    .fa-seedling {
+        margin: 0;
+    }
+
+    .fa-4x {
+        font-size: 2rem;
+        margin: 0 2.5rem;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -1121,6 +1167,11 @@ footer .social-media a {
         aspect-ratio: 16/9;
         flex: 0 0 100%;
         width: 100%;
+    }
+
+    .fa-4x {
+        font-size: 4rem;
+
     }
 }
 /* End of Story Styles */
