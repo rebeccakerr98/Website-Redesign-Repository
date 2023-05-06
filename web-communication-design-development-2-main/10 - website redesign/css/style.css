@@ -972,6 +972,16 @@ code {
   iframe {
     padding: 0 2rem 0.5rem 0;
   }
+  
+  .centered {
+    text-align: center;
+  }
+
+.fa-sun-plant-wilt {
+    display: flex;
+    justify-content: center;
+    color: var(--primary);
+}
 
   @media screen and (max-width: 575px){
     .fa-seedling {
