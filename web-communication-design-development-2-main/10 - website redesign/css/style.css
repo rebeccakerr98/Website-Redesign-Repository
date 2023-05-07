@@ -743,9 +743,40 @@ code {
 
 /* End of Navigation Styles */
 
+/*Test Code Section*/
+.hero-text2{
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
+
+#map{
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+
+#youtube{
+    width: 100%;
+    height: 315px;
+}
+@media screen and (max-width: 576px){ 
+    .sm-none {display: none;}
+}
+@media screen and (min-width: 768px){ .hero-text2 { padding: 2rem; }}
+@media screen and (max-width: 992px){ 
+    .lg-none {display: none;}
+    .green {border-radius: 10px!important; padding-right: 1.5em;}
+    .md-order-1{order:2;}
+    .md-order-2{order:1;}
+}
+    @media screen and (min-width: 992px){ .hero-text2 { padding: 3rem;} .xl-only-none{display: none;}} 
+@media screen and (min-width: 1200px){ .hero-text2 { padding:4rem; }}
+
+
 .hero-image1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/gardening.jpg");
-    height: 50vh;
+    height: fit-content;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -981,6 +1012,12 @@ code {
     display: flex;
     justify-content: center;
     color: var(--primary);
+}
+
+.scroll {
+    overflow: scroll;
+    align-items: baseline;
+    justify-content: start;
 }
 
   @media screen and (max-width: 575px){
