@@ -816,7 +816,7 @@ code {
 
   .hero-image5 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/class.jpg");
-    height: 30vh;
+    height: fit-content;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -835,6 +835,11 @@ code {
 
   .circle {
     border-radius: 50%;
+  }
+
+  .check {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
   }
 
   .name {
@@ -919,7 +924,7 @@ code {
 }
 
 .fa-square-check {
-    padding: 0 1rem 0 1rem;
+    padding-right: 1rem;
 }
 
 .product-item {
@@ -1016,8 +1021,9 @@ code {
 
 .scroll {
     overflow: scroll;
-    align-items: baseline;
+    align-items: start;
     justify-content: start;
+    padding-bottom: 1em;
 }
 
 .fa-circle-check {
